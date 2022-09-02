@@ -1,19 +1,11 @@
 import React from "react"; 
-import { I18nManager, Text, View } from "react-native";
-import COLORS from "./Colors.js";
-import ButtomBar from "./components/ButtomBar.js";
-import SendMessegeButton from "./components/SendMessegeButton.js";
-import styles from "./styles.js";
+import { I18nManager, View, Text } from "react-native";
+import { SendMassageButton } from "./components/componentsDeclartion";
 
 I18nManager.allowRTL(false);
 
 const App = () => {
-  return(
-    <>
-      <View style={{flex: 9}}></View>
-      <ButtomBar/>
-    </>
-  );
+    <Text>sds</Text>
 };
 
 export default App;
